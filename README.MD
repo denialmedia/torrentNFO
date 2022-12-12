@@ -1,3 +1,4 @@
+![Alt text](/screenshots/2022-12-11_23-28.png?raw=true "Polybar Screenshot")
 # torrentNFO
 
 A Simple python script and module for polybar. 
@@ -18,9 +19,17 @@ pip install python-qbittorrent
 
 ### Installing
 
+You will want to add the grabNFO.py to wherever you keep your scripts for polybar. You will also need to make it executable.
 
+```
+chmod +x grabNFO.py
+```
 
-### Executing program
+A simple Polybar module:
+```
+
+```
+
 
 
 
