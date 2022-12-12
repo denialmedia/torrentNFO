@@ -27,7 +27,17 @@ chmod +x grabNFO.py
 
 A simple Polybar module:
 ```
-
+    [module/torrent]
+    type = custom/script
+    exec = grabNFO
+    interval = .1
+    format-prefix-font = 4
+    format-prefix = "ó°šŒ "
+    format-prefix-foreground = ${color.orange}
+    format = <label>
+    label-background= ${color.background}
+    label-foreground = ${color.foreground}
+    click-left = ~/.config/bspwm/scripts/grabNFO -o pop
 ```
 
 
